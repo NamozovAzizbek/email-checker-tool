@@ -1,0 +1,4 @@
+domain,hasMX,hasSPF,spfRecord,hasDMARS,dmarcRecord
+amazon.com, true, false, , true, v=DMARC1;p=quarantine;pct=100;rua=mailto:report@dmarc.amazon.com;ruf=mailto:report@dmarc.amazon.com
+google.com, true, false, , true, v=DMARC1; p=reject; rua=mailto:mailauth-reports@google.co
+stackoverflow.com, true, false, , true, v=DMARC1; p=reject; pct=100; rua=mailto:dmarc-aggregates@stackoverflow.com; ruf=mailto:dmarc-forensics@stackoverflow.com; fo=1
